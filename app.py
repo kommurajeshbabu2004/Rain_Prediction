@@ -4,7 +4,7 @@ import joblib
 import datetime
 
 # Load the trained classification model
-model = joblib.load('rainfall_model.pkl')
+model = joblib.load('rainfall_model.pkl.xz')
 
 # Initialize a session state to store the history
 if 'history' not in st.session_state:
